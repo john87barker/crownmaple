@@ -1,0 +1,49 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+.big-box{
+  height: 9em;
+  width: auto;
+}
+.small-box{
+  height:3em;
+  width: auto;
+}
+.bg-black{
+  background-color: rgb(3, 0, 0) !important;
+  color: aliceblue;
+}
+.bg-orange{
+  background: url(wood.jpg);
+}
+.card-white {
+  background: white;
+  padding: 20px;
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+  margin: 20px 20px;
+}
+.d-flex{
+  display: flex;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.pad-left{
+  padding-left: 60px;
+}
+.pad-all{
+  padding: 20px 100px 0 100px;
+}
+.pad-top{
+  padding-top: 1em;
+}
